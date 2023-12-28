@@ -1,10 +1,32 @@
 # Release Notes
 
+## 5.6.7
+* sln were not analyzed by standalone tool fix by [@matteo-tosi](https://github.com/matteo-tosi) in [#262](https://github.com/security-code-scan/security-code-scan/pull/262)
+* added --sdk-path parameter
+
+**[Full Changelog](https://github.com/security-code-scan/security-code-scan/compare/5.6.6…5.6.7)**
+
+## 5.6.6
+* Fixed [#258](https://github.com/security-code-scan/security-code-scan/issues/258) "Standalone scanner throws exception: 'ProjectName' is already part of the workspace"
+
+**[Full Changelog](https://github.com/security-code-scan/security-code-scan/compare/5.6.5…5.6.6)**
+
+## 5.6.5
+* Fixed [#257](https://github.com/security-code-scan/security-code-scan/issues/257) "Exception on solution that contains a `Solution Items` section"
+
+## 5.6.4
+* Support running dotnet tool against a single project
+* Better filtering by projects in the dotnet tool
+* [#246](https://github.com/security-code-scan/security-code-scan/issues/246) Package security-scan is not compatible with netcoreapp3.1
+
+## 5.6.3
+* [#248](https://github.com/security-code-scan/security-code-scan/pull/248) Be able to exit with non-zero error code when warnings are found
+
 ## 5.6.2
 * Blue-yellow edition in support of Ukraine.
 
 ## 5.6.1
-* Fixed #239 "Adding custom sanitizers to a config file in stand-alone runner".
+* Fixed [#239](https://github.com/security-code-scan/security-code-scan/issues/239) "Adding custom sanitizers to a config file in stand-alone runner".
 
 ## 5.6.0
 * Added support for .NET 6.0 and VS2022
